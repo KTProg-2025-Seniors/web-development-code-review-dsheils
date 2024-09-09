@@ -1,0 +1,52 @@
+body{
+    background-color: cornflowerblue;
+    font-family: "Gill Sans", sans-serif;
+    padding:0;
+    margin:0;
+}
+main{
+    background-color: white;
+    margin-top: 0;
+    padding: 10px;
+    height:2000px;
+}
+#navbar{
+    padding:0px;
+    margin-bottom:0;
+    
+    position:sticky;
+    top:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(80, 73, 73);
+    padding:12px;
+    
+  }
+  .navItem {
+    
+    display: inline;
+}
+.navItem a:hover {
+    background-color: #1cc794;
+    color: rgb(114, 132, 211);
+  }
+  
+  .navItem a {
+    
+    padding: 12px;
+    background-color: rgb(80, 73, 73);
+    color: rgb(114, 132, 211);
+    
+  }
+  h1{
+    font-size: 60px;
+    display: inline;
+  }
+  #logo{
+    width: 60px;
+    height: 60px;
+    display: inline;
+  }
