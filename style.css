@@ -9,6 +9,7 @@ main{
     margin-top: 0;
     padding: 10px;
     height:2000px;
+    padding-bottom:100px;
 }
 #navbar{
     padding:0px;
@@ -51,6 +52,7 @@ ul {
     display: inline;
   }
   .travelTB{
+    margin-top:50px;
     width:30vw;
     height:20vw;
   }

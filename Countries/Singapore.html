@@ -7,8 +7,9 @@
     <title>My Website</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="../times.js"></script>
   </head>
-  <body>
+  <body onload="sinTime()">
     <section id="top">
         <div id="header" style="background-color:tomato">
             <img id="logo" src="../media/planeArt.png" alt="plane logo"">
@@ -27,7 +28,7 @@
         <h2>Singapore</h2>
 
         <div id="clock">
-            <h3>Local Time:</h3>
+            <h3>Local Time:</h3><div id="sintime"></div>
         </div>
     </main>
     
