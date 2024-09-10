@@ -19,14 +19,49 @@
         <ul>
             <li class="navItem"><a href="index.html#top">Home</a></li>
             
-            <li class="navItem"><a href="contact.asp">Mailing List</a></li>
-            <li class="navItem"><a href="about.asp">About</a></li>
+            <li class="navItem"><a href="index.html#mail">Mailing List</a></li>
+            <li class="navItem"><a href="index.html#about">About</a></li>
           </ul> 
     </div>
     <main>
         <section id="top">
-        <h2>home say ouyng</h2>
+        <h2>See our travel guides and packages below!</h2>
         </section>
+        <section id="guides">
+        <div id="iceland">
+          <img src="./media/IcelandTB.jpg" alt="Northern Lights in Iceland" class="travelTB">
+          <h3>Iceland</h3>
+          <a href="./Countries/Iceland.html" class="travelLink">See our Guide!</a>
+        </div>
+        <div id="Australia">
+          <img src="./media/AustraliaTB.jpg" alt="Sea Turtle swimming in Great Barrier Reef, Australia" class="travelTB">
+          <h3>Australia</h3>
+          <a href="./Countries/Australia.html" class="travelLink">See our Guide!</a>
+        </div>
+        <div id="Singapore">
+          <img src="./media/SingaporeTB.jpg" alt="Singaporean Skyline" class="travelTB">
+          <h3>Singapore</h3>
+          <a href="./Countries/Singapore.html" class="travelLink">See our Guide!</a>
+        </div>
+      </section>
+      <hr>
+      <section id="mail">
+        <h3>Join our Mailing List!</h3>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+      <hr>
+      <section id="about">
+        <div id="aboutUs">
+          <h3>About Us</h3>
+          <p class="travelText">school project woo I love keefe tech</p>
+        </div>
+      </section>
     </main>
     
   </body>

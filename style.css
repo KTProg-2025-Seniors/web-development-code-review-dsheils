@@ -5,7 +5,7 @@ body{
     margin:0;
 }
 main{
-    background-color: white;
+    background-color: rgb(218, 213, 213);
     margin-top: 0;
     padding: 10px;
     height:2000px;
@@ -49,4 +49,14 @@ ul {
     width: 60px;
     height: 60px;
     display: inline;
+  }
+  .travelTB{
+    width:30vw;
+    height:20vw;
+  }
+  .travelLink{
+    font-size: large;
+  }
+  .travelText{
+    font-size:medium;
   }
