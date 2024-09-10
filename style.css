@@ -9,7 +9,7 @@ main{
     margin-top: 0;
     padding: 10px;
     height:2000px;
-    padding-bottom:100px;
+    padding-bottom:200px;
 }
 #navbar{
     padding:0px;
@@ -61,4 +61,8 @@ ul {
   }
   .travelText{
     font-size:medium;
+  }
+  .bookTour{
+    font-size:large;
+    color:azure;
   }
