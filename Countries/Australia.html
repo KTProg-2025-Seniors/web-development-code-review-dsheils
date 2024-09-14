@@ -7,7 +7,7 @@
     <title>My Website</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <script src="../times.js"></script>
+    <script src="../script.js"></script>
   </head>
   <body onload="ausTime()">
     <section id="top">
@@ -29,6 +29,13 @@
 
         <div id="clock">
             <h3>Local Time:</h3><div class="bookTour"id="austime"></div>
+        </div>
+        <div class="currency">
+          <h3>Currency Converter:</h3>
+          <input id="USD" type="number" min="1" oninput="convert('australia')"> 
+          <label for="USD">USD</label> =
+          <input type="number" id="aud" min="1" readonly>
+          <label for="aud">AUD</label>
         </div>
         <div class="tour">
             <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/e1/01/88.jpg" alt="Fish in Great Barrier Reef" class="travelTB">

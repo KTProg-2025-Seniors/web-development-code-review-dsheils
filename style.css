@@ -8,8 +8,7 @@ main{
     background-color: rgb(218, 213, 213);
     margin-top: 0;
     padding: 10px;
-    height:2000px;
-    padding-bottom:200px;
+    height:auto;
 }
 #navbar{
     padding:0px;

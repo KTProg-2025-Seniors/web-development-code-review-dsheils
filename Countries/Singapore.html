@@ -7,7 +7,7 @@
     <title>My Website</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <script src="../times.js"></script>
+    <script src="../script.js"></script>
   </head>
   <body onload="sinTime()">
     <section id="top">
@@ -29,6 +29,13 @@
 
         <div id="clock">
             <h3>Local Time:</h3><div id="sintime"></div>
+        </div>
+        <div class="currency">
+          <h3>Currency Converter:</h3>
+          <input id="USD" type="number" min="1" oninput="convert('singapore')"> 
+          <label for="USD">USD</label> =
+          <input type="number" id="SGD" min="1" readonly>
+          <label for="SGD">SGD</label>
         </div>
         <div class="tour">
           <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.findawayphotography.com%2Fwp-content%2Fuploads%2F2018%2F01%2Fpow-golden-arches-in-singapore-s-botanical-gardens.jpg&f=1&nofb=1&ipt=867b96e56f23f1cb2c351e4214db5503c7e3fbe6947868a93ca4a2ac7da583b6&ipo=images" alt="Arches of Leaves in the Singapore Botanical Gardens" class="travelTB">
